@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color:#2d3c49;;
+    font-weight: 300;
+}
+.fa-smile {
+    margin-top: 20px;
+    font-size: 80px;
+    color: #02b3e4;
+}
+
+.text-muted {
+    color:#7d97ad;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 5px;
+    border: 1px solid #7d97ad;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.workexample {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.workexample:hover {
+    opacity: 1;
+}
+
+.example {
+    font-size: 30px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 0px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 521px) and (max-width: 768px) {
+    .title-super {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .workexample {
+        width: 100vw;
+    }
+    .container {
+        margin-top: 5px;
+}
+}
+
+@media screen and (min-width: 451px) and (max-width: 520px) {
+    .title-super {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .workexample {
+        width: 100vw;
+    }
+    .container {
+        margin-top: 5px;
+}
+
+}
+@media screen and (max-width: 450px) {
+    .title-super {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    .workexample {
+        width: 100vw;
+    }
+    .container {
+        margin-top: 5px;
+}
+}
+
+
+
+
